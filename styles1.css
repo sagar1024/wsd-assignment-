@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-image: url('3.jpg');
+    background-size: 100%;
+}
+
+header {
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    padding: 2px;
+}
+
+.flex-container {
+ display: flex;   
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+header p {
+    font-size: 1.5rem;
+}
+
+footer {
+    position: relative;
+    text-align: left;
+    background-color: black;
+    color: bisque;
+    padding: 2px;
+    display: relative;
+    margin-top: -1px;
+}
+
+/* Styles for navigation */
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    margin: 0 1rem;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    border-bottom: 2px solid #fff;
+}
+
+h3, p {
+    color: aliceblue;
+}
+
+.section {
+    padding: 20px;
+    text-align: left;
+    color: #f0ebeb;
+}
+
+.carousel-item {
+    height: 32rem;
+    background: #777;
+    color: aliceblue;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+}
+
+.container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 50px;
+}
+

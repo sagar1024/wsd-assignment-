@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(20, 6, 71);
+}
+
+header {
+    background-color: black;
+    color: aliceblue;
+    margin: 2px;
+    padding: 2px;
+    text-align: center;
+}
+
+.photo-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding: 50px;
+}
+
+.photo-gallery img {
+    max-width: 100%;
+    height: auto;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgb(255, 255, 255);
+}
+
+.photo-gallery img:hover {
+    box-shadow: 0 10px 20px rgb(255, 255, 255);
+}
+

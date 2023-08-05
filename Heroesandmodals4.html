@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hero and Modals Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles4.css">
+</head>
+<body>
+    <!-- Hero -->
+    <header class="hero">
+        <div class="container text-center">
+            <h1>Welcome to my website!</h1>
+            <p>
+                Hi there! I'm Sagar Gurung, a passionate and dedicated web developer with a keen eye for design. I'm enthusiastic about creating user-friendly and visually appealing websites that leave a lasting impression.
+                
+                Throughout my career, I've had the pleasure of working on various projects, from building e-commerce platforms to developing interactive web applications. I take pride in delivering high-quality work that meets client needs and exceeds expectations. Collaboration is at the heart of my work process. I believe that effective teamwork and open communication are essential for successful projects. Working with cross-functional teams has taught me the value of diverse perspectives and creative problem-solving.
+                
+                I'm always seeking opportunities to learn and grow as a developer. Currently, I'm excited about exploring progressive web apps and optimizing web performance. Looking forward to connecting and creating something amazing together!
+            </p>
+            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Learn More</button>
+        </div>
+    </header>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Skill set</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>My key skills include front-end development with HTML, CSS, and JavaScript, as well as proficiency in popular frameworks like React and Bootstrap. I enjoy diving into back-end technologies and have experience working with Node.js and Express.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/js/bootstrap.min.js"></script>
+</body>
+</html>

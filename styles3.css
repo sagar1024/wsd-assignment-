@@ -1,0 +1,13 @@
+body {
+    background-image: url(4.jpg);
+    background-size: cover;
+    color: aliceblue;
+    text-align: center;
+    padding: 100px;
+}
+
+label {
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+}
+
